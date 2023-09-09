@@ -1,0 +1,42 @@
+.core {
+   
+    text-align: center;
+    
+}
+
+.core-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-inline-end: 16px;
+    margin-inline-start: 16px;
+    margin-block-start:40px ;
+    margin-block-end: 40px;
+    
+}
+
+.core-content p {
+   
+}
+
+.core-content span {
+    font: var(--headline5);
+    display: block;
+    
+}
+
+.core-content .icon {
+    block-size: 80.52px;
+}
+
+@media screen and (min-width: 768px){
+    .core {
+        /* border: 1px solid red; */
+        display: flex;
+        margin-inline-end: 230px;
+        margin-inline-start: 230px;
+        margin-block-start:250px ;
+        margin-block-end: 200px;
+    }
+    
+}

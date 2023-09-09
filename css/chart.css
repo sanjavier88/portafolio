@@ -1,0 +1,42 @@
+.chart {
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+    border: 10px solid;
+    border: 3.977px solid rgba(255, 255, 255, .2);
+    /* border-image:  3.977px solid rgba(255, 255, 255, .2); */
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(19.882869720458984px);
+}
+
+.chart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+    margin-inline-start: 24px;
+    margin-inline-end: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.chart-content p {
+    font: var(--headline5);
+    color: var(--purple);
+
+}
+
+.chart-content span {
+    font: var(--caption);
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px){
+
+    .chart {
+        display: flex;
+    }
+    
+}
